@@ -1,0 +1,106 @@
+{
+    "memo_id": "memorandum_B36",
+    "num_questions": 1,
+    "confidence_level": 0.0,
+    "answers": [
+        {
+            "num_sub_questions": 3,
+            "sub_questions": [
+                {
+                    "q_id": "sliced_images/q_1\\q_1.1",
+                    "num_steps": 5,
+                    "steps": [
+                        {
+                            "step": "- 2x + 4\\leq - 6",
+                            "score": 1
+                        },
+                        {
+                            "step": "- 2x \\leq - 6- 4",
+                            "score": 1
+                        },
+                        {
+                            "step": "- 2x \\leq - 10",
+                            "score": 1
+                        },
+                        {
+                            "step": "2x > 10",
+                            "score": 1
+                        },
+                        {
+                            "step": "x \\leq 5",
+                            "score": 1
+                        }
+                    ]
+                },
+                {
+                    "q_id": "sliced_images/q_1\\q_1.2",
+                    "num_steps": 4,
+                    "steps": [
+                        {
+                            "step": "\\sqrt { x + 2} = 5",
+                            "score": 1
+                        },
+                        {
+                            "step": "x + 2= 5^ { 2}",
+                            "score": 1
+                        },
+                        {
+                            "step": "x + 2= 25",
+                            "score": 1
+                        },
+                        {
+                            "step": "x = 23",
+                            "score": 1
+                        }
+                    ]
+                },
+                {
+                    "q_id": "sliced_images/q_1\\q_1.3",
+                    "num_steps": 10,
+                    "steps": [
+                        {
+                            "step": "2x + 3y = 7",
+                            "score": 1
+                        },
+                        {
+                            "step": "x + 4= y",
+                            "score": 1
+                        },
+                        {
+                            "step": "2x + 3( x + 4) = 7",
+                            "score": 1
+                        },
+                        {
+                            "step": "2x + 3x + 12= 7",
+                            "score": 1
+                        },
+                        {
+                            "step": "5x = 7- 12",
+                            "score": 1
+                        },
+                        {
+                            "step": "5x = - 5",
+                            "score": 1
+                        },
+                        {
+                            "step": "x = \\frac { - 5} { 5}",
+                            "score": 1
+                        },
+                        {
+                            "step": "x = - 1",
+                            "score": 1
+                        },
+                        {
+                            "step": "( - 1) + 4= y",
+                            "score": 1
+                        },
+                        {
+                            "step": "y = 3",
+                            "score": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
