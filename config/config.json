@@ -1,0 +1,10 @@
+{
+	"databases":[
+		{
+			"name":"caracal_db",
+			"user":"root",
+			"password":"",
+			"host":"localhost",
+			"location":"local"
+		}]
+}
