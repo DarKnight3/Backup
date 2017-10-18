@@ -1,0 +1,138 @@
+{
+    "memo_id": "Lesego_test",
+    "num_questions": 1,
+    "confidence_level": 99.85644614943267,
+    "answers": [
+        {
+            "num_sub_questions": 3,
+            "sub_questions": [
+                {
+                    "q_id": "sliced_images/q_1\\q_1.1",
+                    "num_steps": 4,
+                    "steps": [
+                        {
+                            "step": "- 2x + 4\\leq - 6",
+                            "confidence_level": 0.999895099026592,
+                            "img_width": 331,
+                            "img_height": 57
+                        },
+                        {
+                            "step": "- 2x \\leq - 6- 4",
+                            "confidence_level": 0.9989286319374834,
+                            "img_width": 302,
+                            "img_height": 48
+                        },
+                        {
+                            "step": "2x \\leq - 10",
+                            "confidence_level": 0.9998340688942983,
+                            "img_width": 234,
+                            "img_height": 41
+                        },
+                        {
+                            "step": "x \\leq 5",
+                            "confidence_level": 0.9908316789669425,
+                            "img_width": 172,
+                            "img_height": 54
+                        }
+                    ]
+                },
+                {
+                    "q_id": "sliced_images/q_1\\q_1.2",
+                    "num_steps": 4,
+                    "steps": [
+                        {
+                            "step": "\\sqrt { x + 2} = 5",
+                            "confidence_level": 0.9946015335827524,
+                            "img_width": 284,
+                            "img_height": 75
+                        },
+                        {
+                            "step": "x + 2= 5^ { 2}",
+                            "confidence_level": 0.9964757405939356,
+                            "img_width": 242,
+                            "img_height": 71
+                        },
+                        {
+                            "step": "x + 2= 25",
+                            "confidence_level": 0.9967532598509016,
+                            "img_width": 284,
+                            "img_height": 47
+                        },
+                        {
+                            "step": "x = 23",
+                            "confidence_level": 0.9992792866087369,
+                            "img_width": 192,
+                            "img_height": 47
+                        }
+                    ]
+                },
+                {
+                    "q_id": "sliced_images/q_1\\q_1.3",
+                    "num_steps": 10,
+                    "steps": [
+                        {
+                            "step": "2x + 3y = 7",
+                            "confidence_level": 0.9999446879664807,
+                            "img_width": 319,
+                            "img_height": 60
+                        },
+                        {
+                            "step": "x + 4= y",
+                            "confidence_level": 0.9994356024162936,
+                            "img_width": 251,
+                            "img_height": 56
+                        },
+                        {
+                            "step": "2x + 3( x + 4) = 7",
+                            "confidence_level": 0.9999027292177742,
+                            "img_width": 364,
+                            "img_height": 67
+                        },
+                        {
+                            "step": "2x + 3x + 12= 7",
+                            "confidence_level": 0.9993040781147837,
+                            "img_width": 362,
+                            "img_height": 66
+                        },
+                        {
+                            "step": "5x = 7- 12",
+                            "confidence_level": 0.9997139223263125,
+                            "img_width": 315,
+                            "img_height": 66
+                        },
+                        {
+                            "step": "x = - 5",
+                            "confidence_level": 0.9996910324370702,
+                            "img_width": 191,
+                            "img_height": 59
+                        },
+                        {
+                            "step": "x = \\frac { 5} { 5}",
+                            "confidence_level": 0.9998931921545052,
+                            "img_width": 172,
+                            "img_height": 75
+                        },
+                        {
+                            "step": "x =",
+                            "confidence_level": 0.9998893769843336,
+                            "img_width": 83,
+                            "img_height": 38
+                        },
+                        {
+                            "step": "( - 1) + 4= 7",
+                            "confidence_level": 0.9998607709310754,
+                            "img_width": 263,
+                            "img_height": 73
+                        },
+                        {
+                            "step": "y = 3",
+                            "confidence_level": 0.9999256148876073,
+                            "img_width": 152,
+                            "img_height": 63
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

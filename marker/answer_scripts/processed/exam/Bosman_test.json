@@ -1,0 +1,72 @@
+{
+    "memo_id": "Bosman_test",
+    "num_questions": 1,
+    "confidence_level": 99.8836348725973,
+    "answers": [
+        {
+            "num_sub_questions": 3,
+            "sub_questions": [
+                {
+                    "q_id": "sliced_images/q_1\\q_1.1",
+                    "num_steps": 4,
+                    "steps": [
+                        {
+                            "step": "- 2x + 4\\leq - 6",
+                            "confidence_level": 0.9998970067171731,
+                            "img_width": 337,
+                            "img_height": 57
+                        },
+                        {
+                            "step": "- 2x \\leq - 6- 4",
+                            "confidence_level": 0.999595743005261,
+                            "img_width": 301,
+                            "img_height": 48
+                        },
+                        {
+                            "step": "- 2x \\leq - 10",
+                            "confidence_level": 0.9999332440529444,
+                            "img_width": 251,
+                            "img_height": 42
+                        },
+                        {
+                            "step": "x \\leq 5",
+                            "confidence_level": 0.9995690089693541,
+                            "img_width": 191,
+                            "img_height": 56
+                        }
+                    ]
+                },
+                {
+                    "q_id": "sliced_images/q_1\\q_1.2",
+                    "num_steps": 1,
+                    "steps": [
+                        {
+                            "step": "\\sqrt { x + 2} = 5",
+                            "confidence_level": 0.9949905999016725,
+                            "img_width": 286,
+                            "img_height": 74
+                        }
+                    ]
+                },
+                {
+                    "q_id": "sliced_images/q_1\\q_1.3",
+                    "num_steps": 2,
+                    "steps": [
+                        {
+                            "step": "x + 2= 25",
+                            "confidence_level": 0.9986028858749103,
+                            "img_width": 284,
+                            "img_height": 47
+                        },
+                        {
+                            "step": "x = 23",
+                            "confidence_level": 0.999265952560495,
+                            "img_width": 192,
+                            "img_height": 48
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
