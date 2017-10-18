@@ -1,0 +1,48 @@
+{
+    "memo_id": "test_scripts_17_10_13_JDu",
+    "num_questions": 1,
+    "confidence_level": 99.06166936341735,
+    "answers": [
+        {
+            "num_sub_questions": 3,
+            "sub_questions": [
+                {
+                    "q_id": "sliced_images/q_1\\q_1.1",
+                    "num_steps": 1,
+                    "steps": [
+                        {
+                            "step": "- 2x + 4\\leq - 6",
+                            "confidence_level": 0.9970537034036286,
+                            "img_width": 507,
+                            "img_height": 80
+                        }
+                    ]
+                },
+                {
+                    "q_id": "sliced_images/q_1\\q_1.2",
+                    "num_steps": 1,
+                    "steps": [
+                        {
+                            "step": "- 2x \\leq - 10",
+                            "confidence_level": 0.9997539686188097,
+                            "img_width": 431,
+                            "img_height": 82
+                        }
+                    ]
+                },
+                {
+                    "q_id": "sliced_images/q_1\\q_1.3",
+                    "num_steps": 1,
+                    "steps": [
+                        {
+                            "step": "\\sqrt { x + 2} = 5",
+                            "confidence_level": 0.9750424088800822,
+                            "img_width": 405,
+                            "img_height": 91
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
