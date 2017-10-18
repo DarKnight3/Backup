@@ -1,0 +1,211 @@
+body{
+	font-family: 'Cabin Sketch', cursive;
+}
+
+#brandname{
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 20px;
+}
+.normal-text
+{
+    font-family: 'Cabin Sketch', cursive;
+    /*font-size:50px;*/
+    color:black;
+}
+
+.loader {
+    border: 16px solid white; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.label-marks
+{
+    font-family: 'Cabin Sketch', cursive;
+    font-size:50px;
+    color:green;
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	background-color: rgb(169,169,169 0.5);
+	left: 0;
+	top: 0;
+
+}
+.car1-info{
+    position: absolute;
+    top:0;
+    left:1em
+}
+.body
+{
+    height:100%; /* or whatever height your banner is */
+    background:url(../img/math_blur.jpg);
+    background-size:cover;
+
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    -o-filter: brightness(50%);
+    -ms-filter: brightness(50%);
+}
+.carousel-inner
+{
+	background: black;
+}
+
+.title{
+	font-family: 'Oswald', sans-serif; font-size:50px;
+}
+
+.bg-img div{
+	z-index: 2;
+	position: relative;
+}
+.bg-img:after{
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	left: 0;
+	top: 0;
+}
+
+.center-btn{
+  display: flex;
+  justify-content: center;
+}
+.guest-btn
+{
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+}
+.intro-box{
+	height: 70vh;
+	display: table;
+	text-align: center;
+	width: 100%;
+	z-index: 9999;
+	color: white;
+}
+
+.intro{
+	display: table-cell;
+	vertical-align: middle;
+	position: absolute;
+	top: 20%;
+
+	/*animation-name: moveup;
+	animation-duration: 1s;*/
+}
+.writing
+{
+	font-family: 'Cabin Sketch', cursive;
+	color: white;
+
+}
+.subjects{
+	font-family: 'Concert One', cursive;
+}
+
+.subjects{
+	font-size: 30px;
+}
+
+#TryLabel{
+	font-family: 'Cabin Sketch', cursive;
+	font-size:25px;
+	color:white;
+
+}
+
+#slogan, h4{
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 35px;
+	color: white;
+}
+
+li>a{
+	color:white;
+	/*border-right: 2px solid white;
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;*/
+}
+
+li>a:hover{
+	color:#004d99;
+}
+
+
+.Try>img:hover{
+	-moz-transform: translate(0px, -15px);
+	-ms-transform: translate(0px, -15px);
+	-o-transform: translate(0px, -15px);
+	-webkit-transform: translate(0px, -15px);
+	 transform: translate(0px, -15px);
+}
+
+.Try {
+  width:100px; 
+  height:100px;
+}
+
+.Try>img:hover {
+	animation: bounce 1s;
+}
+
+
+/*
+******** Animations
+*/
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+@keyframes moveup {
+	25%{
+		top:15%;
+	}
+
+	50%{
+		top:10%;
+	}
+
+	75%{
+		top:5%;
+	}
+
+	100%{
+
+		top:0%;
+	}
+}
